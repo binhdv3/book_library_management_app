@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="2"
+    >
+    <LinearLayout
+        android:layout_weight="1.8"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp">
+        <TextView
+            android:id="@+id/tv_maTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ma thanh vien: "
+            android:textSize="16dp"
+            android:textColor="#F11D1D"
+            />
+        <TextView
+            android:id="@+id/tv_tenTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Ten thanh vien: "
+            android:textSize="22dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/tv_namsinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nam sinh: "
+            android:layout_marginTop="8dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_deleteTv"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_delete"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        />
+</LinearLayout>

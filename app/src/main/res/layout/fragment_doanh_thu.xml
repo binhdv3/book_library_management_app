@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentPackage.ThongKeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="50dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+            <Button
+                android:id="@+id/btn_tungay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Từ ngày"
+                android:background="@drawable/boder_button"
+                />
+            <EditText
+                android:id="@+id/ed_tungay"
+                android:layout_marginLeft="30dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boder_textview"
+                android:inputType="date"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="30dp">
+
+            <Button
+                android:id="@+id/btn_denngay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đến ngày"
+                android:background="@drawable/boder_button"/>
+
+            <EditText
+                android:id="@+id/ed_denngay"
+                android:layout_marginLeft="30dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:background="@drawable/boder_textview"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_thongke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$ Thống kê"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/boder_button"/>
+        <TextView
+            android:id="@+id/tv_tongtien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="1000000000000$"
+            android:textSize="20dp"
+
+            />
+    </LinearLayout>
+
+</FrameLayout>

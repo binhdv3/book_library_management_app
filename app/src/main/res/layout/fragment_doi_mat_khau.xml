@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FragmentPackage.DoiMatKhauFragment"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true">
+        <EditText
+            android:id="@+id/ed_passOld"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Mật khẩu cũ"
+            android:background="@drawable/boder_textview"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        android:layout_marginTop="40dp">
+        <EditText
+            android:id="@+id/ed_passNew"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Mật khẩu mới"
+            android:background="@drawable/boder_textview"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true"
+        android:layout_marginTop="40dp">
+        <EditText
+            android:id="@+id/ed_rePass"
+            android:layout_marginTop="40dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Nhập lại mật khẩu"
+            android:background="@drawable/boder_textview"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="35dp"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/btn_savePass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boder_button"
+            android:text="Save"/>
+        <Button
+            android:id="@+id/btn_cancelPass"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boder_button"
+            android:text="Cancel"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

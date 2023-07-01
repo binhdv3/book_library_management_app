@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="340dp"
+    android:layout_height="500dp"
+    android:orientation="vertical"
+    android:gravity="center">
+    <EditText
+        android:id="@+id/ed_maLS"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Mã loại sách"
+        android:background="@drawable/boder_textview"/>
+    <EditText
+        android:id="@+id/ed_tenLS"
+        android:layout_marginTop="30dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Tên loại sách"
+        android:background="@drawable/boder_textview"/>
+
+    <EditText
+        android:id="@+id/ed_nhaCCLS"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/boder_textview"
+        android:hint="Nhà cung cấp" />
+
+    <Button
+        android:id="@+id/btn_save_ls"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:background="@drawable/boder_button"/>
+</LinearLayout>

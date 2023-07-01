@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentPackage.QL_ThanhVienFragment">
+
+    <ListView
+        android:id="@+id/lv_thanhvien"
+        android:layout_width="match_parent"
+        android:layout_height="650dp"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_opendialog_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add"
+        android:background="@color/purple_700"
+        android:layout_marginTop="660dp"
+        android:layout_marginLeft="320dp"/>
+
+</FrameLayout>

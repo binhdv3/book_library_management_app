@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="340dp"
+    android:layout_height="600dp"
+    android:orientation="vertical"
+    android:gravity="center">
+    <EditText
+        android:id="@+id/ed_maPM"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Mã phiếu mượn"
+        android:background="@drawable/boder_textview"/>
+    <Spinner
+        android:id="@+id/sp_thanhvien"
+        android:layout_marginTop="30dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        />
+
+    <Spinner
+        android:id="@+id/sp_sach"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:id="@+id/tv_ngaythue"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Ngay thue"
+        android:textSize="17dp"
+        android:background="@drawable/boder_textview"/>
+    <TextView
+        android:id="@+id/tv_tienthue"
+        android:layout_marginTop="30dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Tiền thuê:"
+        android:textSize="17dp"
+        android:background="@drawable/boder_textview"/>
+    <CheckBox
+        android:id="@+id/chk_trasach"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trả sách chưa"
+        android:layout_marginRight="50dp"
+        />
+    <Button
+        android:id="@+id/btn_save_pm"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:background="@drawable/boder_button"/>
+</LinearLayout>

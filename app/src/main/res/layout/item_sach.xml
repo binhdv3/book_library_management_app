@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="2"
+    android:background="#FFEB3B"
+    >
+    <LinearLayout
+        android:layout_weight="1.8"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp">
+        <TextView
+            android:id="@+id/tv_maS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ma thanh vien: "
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/tv_tenS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Ten thanh vien: "
+            android:textSize="22dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/tv_giathueS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gia thue: "
+            android:layout_marginTop="8dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/tv_maLS_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã sách: "
+            android:layout_marginTop="8dp"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/tv_sotrang_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số trang: "
+            android:layout_marginTop="8dp"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_deleteS"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_delete"
+        android:textSize="30dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="30dp"
+        />
+</LinearLayout>

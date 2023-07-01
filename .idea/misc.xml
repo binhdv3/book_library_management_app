@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/DuAnMau/AssignmentDuanmau/app/src/main/res/drawable/boder_button.xml" value="0.1595" />
+        <entry key="..\:/DuAnMau/AssignmentDuanmau/app/src/main/res/drawable/boder_textview.xml" value="0.196" />
+        <entry key="..\:/DuAnMau/AssignmentDuanmau/app/src/main/res/drawable/ic_launcher_background.xml" value="0.196" />
+        <entry key="..\:/DuAnMau/AssignmentDuanmau/app/src/main/res/layout/activity_dang_kiactivity2.xml" value="0.25416666666666665" />
+        <entry key="..\:/DuAnMau/AssignmentDuanmau/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/DuAnMau/AssignmentDuanmau/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/DuAnMau/AssignmentDuanmau/app/src/main/res/layout/dialog_phieumuon.xml" value="0.264" />
+        <entry key="..\:/DuAnMau/AssignmentDuanmau/app/src/main/res/layout/dialog_them_loaisach.xml" value="0.25416666666666665" />
+        <entry key="..\:/DuAnMau/AssignmentDuanmau/app/src/main/res/layout/dialog_them_sach.xml" value="0.18497109826589594" />
+        <entry key="..\:/DuAnMau/AssignmentDuanmau/app/src/main/res/layout/dialog_them_thanhvien.xml" value="0.1" />
+        <entry key="..\:/DuAnMau/AssignmentDuanmau/app/src/main/res/layout/dialog_themtaikhoan.xml" value="0.253125" />
+        <entry key="..\:/DuAnMau/AssignmentDuanmau/app/src/main/res/layout/fragment_add__user.xml" value="0.25416666666666665" />
+        <entry key="..\:/DuAnMau/AssignmentDuanmau/app/src/main/res/layout/fragment_doanh_thu.xml" value="0.25416666666666665" />
+        <entry key="..\:/DuAnMau/AssignmentDuanmau/app/src/main/res/layout/fragment_doi_mat_khau.xml" value="0.25416666666666665" />
+        <entry key="..\:/DuAnMau/AssignmentDuanmau/app/src/main/res/layout/fragment_q_l__loai_sach.xml" value="0.25416666666666665" />
+        <entry key="..\:/DuAnMau/AssignmentDuanmau/app/src/main/res/layout/fragment_q_l__phieu_muon.xml" value="0.264" />
+        <entry key="..\:/DuAnMau/AssignmentDuanmau/app/src/main/res/layout/fragment_q_l__sach.xml" value="0.2" />
+        <entry key="..\:/DuAnMau/AssignmentDuanmau/app/src/main/res/layout/fragment_q_l__thanh_vien.xml" value="0.25416666666666665" />
+        <entry key="..\:/DuAnMau/AssignmentDuanmau/app/src/main/res/layout/fragment_top10.xml" value="0.25416666666666665" />
+        <entry key="..\:/DuAnMau/AssignmentDuanmau/app/src/main/res/layout/header_nav_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/DuAnMau/AssignmentDuanmau/app/src/main/res/layout/item_loaisach.xml" value="0.253125" />
+        <entry key="..\:/DuAnMau/AssignmentDuanmau/app/src/main/res/layout/item_phieumuon.xml" value="0.25416666666666665" />
+        <entry key="..\:/DuAnMau/AssignmentDuanmau/app/src/main/res/layout/item_sach.xml" value="0.25416666666666665" />
+        <entry key="..\:/DuAnMau/AssignmentDuanmau/app/src/main/res/layout/item_spinner_loaisach.xml" value="0.253125" />
+        <entry key="..\:/DuAnMau/AssignmentDuanmau/app/src/main/res/layout/item_spinner_sach.xml" value="0.25416666666666665" />
+        <entry key="..\:/DuAnMau/AssignmentDuanmau/app/src/main/res/layout/item_spinner_thanhvien.xml" value="0.25416666666666665" />
+        <entry key="..\:/DuAnMau/AssignmentDuanmau/app/src/main/res/layout/item_thanhvien.xml" value="0.264" />
+        <entry key="..\:/DuAnMau/AssignmentDuanmau/app/src/main/res/layout/item_top.xml" value="0.2" />
+        <entry key="..\:/DuAnMau/AssignmentDuanmau/app/src/main/res/menu/menu_option_quanly.xml" value="0.21374045801526717" />
+        <entry key="..\:/ThucHanhDuAnMau/app/src/main/res/layout/activity_home.xml" value="0.16510416666666666" />
+        <entry key="..\:/ThucHanhDuAnMau/app/src/main/res/layout/activity_main.xml" value="0.2234375" />
+        <entry key="..\:/ThucHanhDuAnMau/app/src/main/res/layout/activity_welcome.xml" value="0.2234375" />
+        <entry key="..\:/ThucHanhDuAnMau/app/src/main/res/layout/dialog_them_loaisach.xml" value="0.25416666666666665" />
+        <entry key="..\:/ThucHanhDuAnMau/app/src/main/res/layout/fragment_q_l__loai_sach.xml" value="0.23020833333333332" />
+        <entry key="..\:/ThucHanhDuAnMau/app/src/main/res/layout/fragment_q_l__sach.xml" value="0.25416666666666665" />
+        <entry key="..\:/ThucHanhDuAnMau/app/src/main/res/layout/item_loaisach.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

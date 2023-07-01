@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="340dp"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    android:gravity="center">
+    <EditText
+        android:id="@+id/ed_maTV"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Mã thành viên"
+        android:textColor="@color/black"
+        android:background="@drawable/boder_textview"/>
+    <EditText
+        android:id="@+id/ed_tenTV"
+        android:layout_marginTop="30dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Tên thành viên"
+        android:textColor="@color/black"
+        android:background="@drawable/boder_textview"/>
+    <EditText
+        android:id="@+id/ed_namsinh"
+        android:layout_marginTop="30dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Năm sinh"
+        android:inputType="date"
+        android:textColor="@color/black"
+        android:background="@drawable/boder_textview"/>
+    <Button
+        android:id="@+id/btn_save_tv"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:background="@drawable/boder_button"/>
+</LinearLayout>
